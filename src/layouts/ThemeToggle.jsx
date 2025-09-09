@@ -17,7 +17,7 @@ const ThemeToggle = () => {
 
   return (
     <label className="swap swap-rotate">
-      {/* Checkbox controlling theme */}
+      {/* Checkbox  theme */}
       <input
         type="checkbox"
         className="theme-controller"
