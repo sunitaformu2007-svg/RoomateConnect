@@ -628,7 +628,7 @@ import toast from "react-hot-toast";
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, query, where, getDocs, doc, deleteDoc } from "firebase/firestore";
 
-// Firebase config (inline)
+// // Firebase config (inline)
 const firebaseConfig = {
   apiKey: "AIzaSyDG5WFfAfuD_EjHMxxVprtJ6Dz6dvqYMyw",
   authDomain: "house-48b55.firebaseapp.com",
