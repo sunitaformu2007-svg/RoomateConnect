@@ -14,19 +14,19 @@ import {
 } from "react-icons/fa";
 
 // // Firebase imports
-// import { initializeApp } from "firebase/app";
-// import { getFirestore, doc, updateDoc, increment } from "firebase/firestore";
+import { initializeApp } from "firebase/app";
+import { getFirestore, doc, updateDoc, increment } from "firebase/firestore";
 
-// // Firebase config
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDG5WFfAfuD_EjHMxxVprtJ6Dz6dvqYMyw",
-//   authDomain: "house-48b55.firebaseapp.com",
-//   projectId: "house-48b55",
-//   storageBucket: "house-48b55.firebasestorage.app",
-//   messagingSenderId: "118580147922",
-//   appId: "1:118580147922:web:67e1c94fb1522d8529df0b",
-//   measurementId: "G-N4RTS3JG64"
-// };
+// Firebase config
+const firebaseConfig = {
+  apiKey: "AIzaSyDG5WFfAfuD_EjHMxxVprtJ6Dz6dvqYMyw",
+  authDomain: "house-48b55.firebaseapp.com",
+  projectId: "house-48b55",
+  storageBucket: "house-48b55.firebasestorage.app",
+  messagingSenderId: "118580147922",
+  appId: "1:118580147922:web:67e1c94fb1522d8529df0b",
+  measurementId: "G-N4RTS3JG64"
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
