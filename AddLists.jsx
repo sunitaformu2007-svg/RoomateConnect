@@ -478,4 +478,15 @@ const AddLists = () => {
 
           <textarea
             className="textarea textarea-bordered w-full col-span-full"
-  
+            name="description"
+            placeholder="Description/Bio"
+            required
+          ></textarea>
+
+          <input
+            className="input input-bordered w-full"
+            type="text"
+            defaultValue={user.displayName}
+            disabled
+          />
+         sts;
