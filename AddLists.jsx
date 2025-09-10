@@ -489,7 +489,6 @@ const AddLists = () => {
             defaultValue={user.displayName}
             disabled
           />
-         sts;
           <input
             className="input input-bordered w-full"
             type="text"
@@ -508,4 +507,4 @@ const AddLists = () => {
   );
 };
 
-export default AddLi
+export default AddLists;
