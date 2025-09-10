@@ -3,7 +3,6 @@ import client1 from '../assets/client1.jpg'
 import client2 from '../assets/client2.jpg'
 import client3 from '../assets/client3.jpg'
 import about from '../assets/about.png'
-import ghost from '../assets/ghost.jpeg'
 import { FaUsers, FaLightbulb, FaHandsHelping, FaCheckCircle, FaStar } from "react-icons/fa"; // Importing icons for visual appeal
 
 const AboutUs = () => {
@@ -14,24 +13,21 @@ const AboutUs = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "Guegouo M. Guiddel",
-      role: "CEO & Co-founder",
-      image: ghost,
-      bio: "Alice envisioned Roommate Finder to simplify co-living, bringing years of experience in tech startups and community building.",
+      name: "Mafor Glory",
+      role: "Product Owner",
+      bio: "Glory envisioned Roommate Finder to simplify co-living, bringing years of experience in house searching and community building.",
     },
     {
       id: 2,
-      name: "Guegouo M. Guiddel",
-      role: "CTO & Co-founder",
-      image: ghost,
-      bio: "Bob leads our engineering efforts, passionate about creating robust and scalable solutions for seamless user experiences.",
+      name: "Fonkeng Terence Lyonga",
+      role: "CTO",
+      bio: "Terrence leads our engineering efforts, passionate about creating robust and scalable solutions for seamless user experiences.",
     },
     {
       id: 3,
-      name: "Guegouo M. Guiddel",
-      role: "Head of Community",
-      image: ghost,
-      bio: "Carol ensures our community thrives, focusing on user support and fostering a positive environment for all members.",
+      name: "Junior Mekata Itambi Ekpa ",
+      role: "srum master",
+      bio: "Junior ensures our community thrives, focusing on user support and fostering a positive environment for all members.",
     },
   ];
 
@@ -86,10 +82,10 @@ const AboutUs = () => {
               <FaLightbulb className="inline-block mr-3 text-secondary" /> Our Story
             </h2>
             <p className="text-lg leading-relaxed mb-4">
-              Roommate Finder began with a simple idea: finding the right roommate shouldn't be stressful. Ours the founder, having faced their own challenges in the search, envisioned a platform that prioritized compatibility, safety, and community.
+              Roommate Finder began with a simple idea: finding the right roommate shouldn't be stressful. Ours the founder, having faced our own challenges in the search, envisioned a platform that prioritized compatibility, safety, and community.
             </p>
             <p className="text-lg leading-relaxed">
-              Since our inception in {new Date().getFullYear() +0}, we've grown into a trusted community, continuously evolving our features to meet the diverse needs of students, professionals, and travelers seeking their ideal living arrangements.
+              Since our inception in {new Date().getFullYear() +0}, we are growing into a trusted community, continuously evolving our features to meet the diverse needs of students, professionals, and travelers seeking their ideal living arrangements.
             </p>
           </div>
           <div className="animate-slide-in-right">
