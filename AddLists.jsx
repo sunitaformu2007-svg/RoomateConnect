@@ -490,3 +490,22 @@ const AddLists = () => {
             disabled
           />
          sts;
+          <input
+            className="input input-bordered w-full"
+            type="text"
+            defaultValue={user.email}
+            disabled
+          />
+          <button
+            type="submit"
+            className="btn btn-secondary w-full col-span-full"
+          >
+            Add Post
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+};
+
+export default AddLi
