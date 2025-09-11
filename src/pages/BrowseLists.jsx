@@ -1,6 +1,4 @@
 
-
-
 import { useEffect, useState } from "react";
 import { Link, useLoaderData, useNavigation } from "react-router";
 import {
