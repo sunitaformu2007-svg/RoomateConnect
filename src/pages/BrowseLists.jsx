@@ -20,7 +20,7 @@ const BrowseLists = () => {
   const [sortBy, setSortBy] = useState("default");
   const [filterAvailability, setFilterAvailability] = useState("all");
 
-  // Store favorites in component state instead of localStorage
+  
   const [favoriteListings, setFavoriteListings] = useState({});
 
   useEffect(() => {
