@@ -32,6 +32,12 @@ const AboutUs = () => {
       role: "Member",
       bio: "Rodrick he valued professionalism and dedication shown throughtout this project.",
     },
+    {
+      id: 1,
+      name: "Formu Sunita",
+      role: "Member",
+      bio: "Naah enjoyed collaborating with a supportive and proactive team. great teamwork everyone contributed meaningfully to the project success, gave a specific skill of problem solving, communication, project management.",
+    },
   ];
 
   const testimonials = [
