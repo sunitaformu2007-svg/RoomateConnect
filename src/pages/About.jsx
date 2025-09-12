@@ -1,7 +1,4 @@
-import React, { useEffect } from "react";
-import client1 from '../assets/client1.jpg'
-import client2 from '../assets/client2.jpg'
-import client3 from '../assets/client3.jpg'
+import React, { useEffect } from "react"
 import about from '../assets/about.png'
 import { FaUsers, FaLightbulb, FaHandsHelping, FaCheckCircle, FaStar } from "react-icons/fa"; // Importing icons for visual appeal
 
@@ -28,6 +25,12 @@ const AboutUs = () => {
       name: "Junior Mekata Itambi Ekpa ",
       role: "srum master",
       bio: "Junior ensures our community thrives, focusing on user support and fostering a positive environment for all members.",
+    },
+    {
+      id: 4,
+      name: "Rodrick Vernyuy",
+      role: "Member",
+      bio: "Rodrick he valued professionalism and dedication shown throughtout this project.",
     },
   ];
 
