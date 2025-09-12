@@ -187,31 +187,4 @@ const BrowseLists = () => {
                 </figure>
                 <div className="card-body p-4 flex flex-col justify-between">
                   <div>
-                    <h3 className="card-title text-xl font-semibold text-base-content mb-2">
-                      {list.title}
-                    </h3>
-                    <p className="text-sm text-base-content/70 flex items-center mb-1">
-                      <MapPin className="h-4 w-4 mr-2 text-secondary" />
-                      {list.location}
-                    </p>
-                    <p className="text-sm text-base-content/70 flex items-center mt-1">
-                      <DollarSign className="h-4 w-4 mr-2 text-success" /> FCFA 
-                      {list.rent} / {list.roomType}
-                    </p>
-                  </div>
-                  <div className="card-actions mt-4">
-                    <button className="btn btn-secondary w-full flex items-center justify-center gap-2 text-white">
-                      View Details <ArrowRight className="h-5 w-5" />
-                    </button>
-                  </div>
-                </div>
-              </Link>
-            </div>
-          ))}
-        </div>
-      )}
-    </div>
-  );
-};
-
-export default BrowseLists;
+            
